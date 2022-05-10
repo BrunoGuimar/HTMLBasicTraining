@@ -1,0 +1,30 @@
+*{
+
+    box-sizing: border-box;
+    font-family: 'Rubik Glitch', cursive;
+}
+p{
+    border: solid red 4px;
+    width: 300px;
+    height: 300px;
+    padding: 4px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    outline: solid yellow 2px;
+    margin: 80px auto;
+    background-image: url(https://i0.wp.com/heroisx.com/wp-content/uploads/2018/05/Mob-Psycho-100-shigeo.jpg?resize=640%2C384);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+video{
+border: solid black 4px;
+width: 300px;
+height: 300px;
+background-color: grey;
+color: black;
+outline: solid orange 2px;
+margin: 80px 34%;
+}

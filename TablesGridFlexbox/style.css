@@ -1,0 +1,76 @@
+/*                              TREINOS GRID                            */
+body{
+    display: grid;
+    margin: 0;
+    height: 100vh;
+    grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer";
+    
+    grid-template-rows: 30px 1fr 40px;
+    grid-template-columns: 1fr 80px;
+}
+
+header{
+    grid-area: header;
+    background-color: red;
+}
+main{
+    grid-area: main;
+    background-color: blue;
+}
+aside{
+    grid-area: aside;
+    background-color: orange;
+}
+footer{
+    grid-area: footer;
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+                                TREINOS FLEX
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+}
+.container{
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+}
+ positions: absolute "empurra a imagem para frente", relativa "mantem o ponto inicial
+mas modifica a sua posição", fixed: "mantem a imagem fixada na pagina, z-index: "define
+a prioridade que a imagem tem sobre as outras
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: blue;
+}
+*/

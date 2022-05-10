@@ -1,0 +1,21 @@
+*{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    gap: 1rem;
+}
+aside, main{
+    border: 1px solid black;
+    height: 80vh;
+}
+aside{
+    background-color: grey;
+    flex: 0 25%;
+}
+main{
+    background: yellow;
+    flex: 1;
+}

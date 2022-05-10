@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <form>
+            <fieldset>
+                <legend>SISTEMA DE GESTÃO ACADÊMICA</legend>
+                <h2><strong>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</strong></h2>
+                <label for="usuario">Login: </label>
+                <input type="text" id="usuario" placeholder="Digite seu login"><br>
+                <label for="senha">Senha: </label>
+                <input type="text" id="senha" placeholder="Digite sua senha">
+                <br>
+                <label for="status">Status:</label>
+                <select id="status">
+                    <option>Inativo</option>
+                    <option>Ativo</option>
+                </select><br>
+                <label id="tipo">Tipo</label>
+                <input type="checkbox" id="tipo" name="tecnico">
+                <label for="tipo">Técnico</label>
+                <input type="checkbox" id="tipo" name="professor">
+                <label for="tipo">Professor</label>
+                <input type="checkbox" id="tipo" name="aluno">
+                <label for="tipo">Aluno</label><br>
+                <label for="date">Data Criação</label>
+                <input type="date" id="data"><br>
+                <label for="perfil">Perfil</label>
+                <input type="checkbox" name="convidado" id="perfil">
+                <label for="perfil">Convidado</label>
+                <input type="checkbox" name="admin" id="perfil">
+                <label for="perfil">Administrador</label><br>
+                <label id="observacao" name="observacaohaha">Observações:</label>
+                <textarea id="observacao" cols="40" rows="6" wrap="hard"></textarea><br>
+                <label id="kek">.....................</label>
+                
+                <input type="checkbox" name="compras" id="tipoobservacao">
+                <label for="tipoobservacao">Compras</label>
+                <input type="checkbox" name="biblioteca" id="tipoobservacao">
+                <label for="tipoobservacao">Biblioteca</label>
+                <input type="checkbox" name="academico" id="tipoobservacao">
+                <label for="tipoobservacao">Académico</label><br>
+                <label for="modulos">Módulos:</label>
+                <input type="checkbox" name="documentacao" id="modulos">
+                <label for="tipoobservacao">Documentação</label>
+                <input type="checkbox" name="recursoshumanos" id="modulos">
+                <label for="tipoobservacao">Recursos Humanos</label><br><br>
+
+                <button type="submit">Cadastrar</button> <button type="reset">Excluir</button>
+
+            </fieldset>
+        </form>
+    
+</body>
+</html>
